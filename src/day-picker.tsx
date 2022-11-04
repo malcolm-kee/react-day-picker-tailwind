@@ -21,14 +21,14 @@ const classNames: DayPickerDefaultProps['classNames'] = {
   table: 'border-collapse border-spacing-0',
   head_cell: 'w-10 h-10 uppercase align-middle text-center',
   cell: 'w-10 h-10 align-middle text-center border-0 px-0',
-  day_selected: 'text-white bg-sky-500 hover:bg-sky-500',
   day: 'rounded-full w-10 h-10 transition-colors hover:bg-sky-100 focus:outline-none focus-visible:ring focus-visible:ring-sky-300 focus-visible:ring-opacity-50 active:bg-sky-600 active:text-white',
+  day_selected: 'text-white bg-sky-500 hover:bg-sky-500',
   day_today: 'font-bold',
   day_disabled:
     'opacity-25 hover:bg-white active:bg-white active:text-gray-800',
   day_outside: 'enabled:opacity-50',
-  day_range_middle: 'range_middle rounded-none peer',
-  day_range_start: 'range_start rounded-r-none rounded-l-full peer',
+  day_range_middle: 'rounded-none',
   day_range_end: 'rounded-l-none rounded-r-full',
+  day_range_start: 'rounded-r-none rounded-l-full',
   day_hidden: 'hidden',
 };
